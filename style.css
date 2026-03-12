@@ -1,4 +1,55 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(assets/ondinha2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Helvetica;
+}
+
+.navbar { 
+    position: sticky;
+    height: 80px;
+    width: 100vw;
+    border-bottom: 0px black solid;
+    box-shadow: black 0px 0px 50px;
+    background-color: #005461;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1{
+    margin-top: 100px;
+    width: 90vw;
+    background-color: rgba(187, 189, 255, 0.753);
+    border-radius: 15px;
+}
+
+.t1{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.box1{
+    width: 85vw;
+    height: 400px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.box2{
+    margin: 300px auto 0;
+    width: 85vw;
+    height: 800px;
+    background-color: red;
 }
