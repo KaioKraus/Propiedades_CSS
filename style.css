@@ -13,11 +13,11 @@ body {
 
 .navbar { 
     position: sticky;
-    height: 80px;
+    height: 30px;
     width: 100vw;
     border-bottom: 0px black solid;
     box-shadow: black 0px 0px 50px;
-    background-color: #005461;
+    background-color: #09568a;
 }
 
 main{
@@ -28,28 +28,40 @@ main{
 }
 
 .sec1{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 90vw;
-    background-color: rgba(187, 189, 255, 0.753);
-    border-radius: 15px;
+    background-color: rgba(190, 190, 190, 0.849);
+    border-radius: 25px;
 }
 
 .t1{
     text-align: center;
     font-size: 30px;
     padding: 50px;
+    color: rgb(255, 255, 255);
 }
 
 .box1{
-    width: 85vw;
+    margin: 30px;
+    width: 100vw;
     height: 400px;
-    background-color: blue;
-    margin: 0 auto;
+    background-color: #09568a;
+    border-radius: 10px;
 }
 
 .box2{
-    margin: 300px auto 0;
-    width: 85vw;
-    height: 800px;
-    background-color: red;
+    margin: 30px;
+    width: 100vw;
+    height: 400px;
+    background-color: #09568a;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.titulo_box {
+
+
 }
