@@ -310,10 +310,60 @@ main{
 
 /*Position*/
 
-.section-display{
+.section-position{
     width: 80vw;
-    height: 80vh;
+    height: auto;
     background-color: rgba(190, 190, 190, 0.849);
     margin-top: 10vh;
     border-radius: 25px;
+    padding: 30px;
 }
+
+.title_position{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.box1-position{
+    width: 90%;
+    height: 570px;
+    background-color: #09568a;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.section-display{
+    width: 80vw;
+    height: auto;
+    background-color: rgba(190, 190, 190, 0.849);
+    margin-top: 10vh;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.title_display{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.box1-display{
+    width: 90%;
+    height: 570px;
+    background-color: #09568a;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
