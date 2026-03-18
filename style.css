@@ -503,9 +503,66 @@ a{
 
 .box1-display{
     width: 90%;
-    height: 570px;
+    height: auto;
     background-color: #09568a;
     margin: 40px auto;
     border-radius: 20px;
 }
 
+
+.box_block{
+    margin: 15px auto;
+    background-color: white;
+    width: 90%;
+    padding: 30px;
+    border-radius: 15px 15px 0 0;
+}
+
+.box_block>h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box_block>p{
+    width: 70%;
+    text-align: justify;
+    margin: 30px auto;
+}
+
+.box_inline{
+    margin: 15px auto;
+    background-color: white;
+    width: 90%;
+    padding: 30px;
+}
+
+.box_inline>h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.box_inline>p{
+    width: 70%;
+    text-align: justify;
+    margin: 30px auto;
+}
+
+.box_inlina{
+    margin: 15px auto 50px;
+    background-color: white;
+    width: 90%;
+    padding: 30px;
+    border-radius: 0 0 15px 15px;
+}
+
+.box_inlina>h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box_inlina>p{
+    width: 70%;
+    text-align: justify;
+    margin: 30px auto;
+}
