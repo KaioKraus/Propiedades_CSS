@@ -66,6 +66,14 @@ main{
     border-radius: 10px;
 }
 
+.box3{
+    margin: 30px;
+    width: 1670px;
+    height: 300px;
+    background-color: #09568a;
+    border-radius: 10px;
+}
+
 .flex {
     display: flex;
 }
