@@ -11,9 +11,18 @@ body {
     font-family: Helvetica;
 }
 
+.titulo {
+    text-align: center;
+    font-size: 55px;
+    color: rgb(241, 241, 241);
+    margin: 5px;
+    font-family: cambria;
+    
+}
+
 .navbar { 
     position: sticky;
-    height: 30px;
+    height: 80px;
     width: 100vw;
     border-bottom: 0px black solid;
     box-shadow: black 0px 0px 50px;
@@ -62,8 +71,31 @@ main{
 }
 
 .titulo_box {
+font-family: cambria;
+text-align: center;
+color: white;
+margin-top: 25px;
+margin-bottom: 30px;
+font-size: 45px;
+}
 
+.texto_box{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: times;
+    margin: 50px;
+}
 
+.botao_box {
+    background-color: #09568a;
+    color: white;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    
 }
 
 
