@@ -328,12 +328,106 @@ main{
 
 .box1-position{
     width: 90%;
-    height: 570px;
+    height: auto;
     background-color: #09568a;
     margin: 40px auto;
     border-radius: 20px;
 }
 
+.box_static{
+    margin: 50px auto 0;
+    background-color: white;
+    width: 90%;
+    padding: 30px;
+    border-radius: 15px 15px 0 0;
+}
+
+.box_static>h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box_static>p{
+    width: 70%;
+    text-align: justify;
+    margin: 30px auto;
+}
+
+.box_relative{
+    margin: 15px auto 0;
+    background-color: white;
+    width: 90%;
+    padding: 30px;
+}
+
+.box_relative>h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box_relative>p{
+    width: 70%;
+    text-align: justify;
+    margin: 30px auto;
+}
+
+
+.box_absolute{
+    margin: 15px auto 0;
+    background-color: white;
+    width: 90%;
+    padding: 30px;
+}
+
+.box_absolute>h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box_absolute>p{
+    width: 70%;
+    text-align: justify;
+    margin: 30px auto;
+}
+
+
+.box_fixed{
+    margin: 15px auto 0;
+    background-color: white;
+    width: 90%;
+    padding: 30px;
+}
+
+.box_fixed>h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box_fixed>p{
+    width: 70%;
+    text-align: justify;
+    margin: 30px auto;
+}
+
+
+.box_sticky{
+    margin: 15px auto 50px;
+    background-color: white;
+    width: 90%;
+    padding: 30px;
+    border-radius: 0 0 15px 15px;
+}
+
+.box_sticky>h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box_sticky>p{
+    width: 70%;
+    text-align: justify;
+    margin: 30px auto;
+}
 
 
 

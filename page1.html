@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Position</title>
 </head>
+
 <body>
     <main>
         <section class="section-position">
@@ -14,9 +16,66 @@
 
             <div class="box1-position">
 
+                <div class="box_static">
+                    <h2>Position static:</h2>
+
+                    <p>É o “natural” do html, é como os elementos se posicionam normalmente, ou seja com ou sem essa tag
+                        o comportamento é o mesmo, porém pode ser útil em algumas ocasiões como na mudança de algo da
+                        parte do pc para o mobile, onde se eu quiser por exemplo que uma navbar fique fixa na tela no pc
+                        porem móvel na tela do mobile eu uso p position static com uma exceção que quando a tela tiver a
+                        largura máxima de 450px (tamanho da tela normal de um celular) ela vai transformar a position
+                        fixed em position static fazendo com que no computador você tenha uma navbar fixa no top da tela
+                        e no celular ela fica fixa no top do site e não da sua tela.</p>
+                </div>
+
+                <div class="box_relative">
+                    <h2>Position relative:</h2>
+
+                    <p>Serve para você mover as coisas “uma para cima da outra”, ela funciona da mesma forma que o
+                        “position static” porém permite você mover seu elemento para qualquer um dos lados usando as
+                        tags: top (para cima), Bottom (para baixo), Left (para esquerda) e right (para direita). E pode
+                        ser usado da seguinte forma: <br>
+                        <br>
+                        .elemento {<br>
+                        position relative;<br>
+                        left: 20px;<br>
+                        } <br>
+                        <br>
+
+                        Dessa forma o elemento vai se posicionar na posição normal porém 20px a mais para direita pois
+                        no código quando usamos o “left: 20px” ele cria uma “borda invisível” de 20px na esquerda
+                        fazendo o elemento ir para a direita.
+                    </p>
+                </div>
+
+                <div class="box_absolute">
+                    <h2>Position absolute:</h2>
+
+                    <p>Serve basicamente para jogar o seu elemento “em uma nova camada” onde ele nao vai interagir com os outros elementos onde os outros elementos ficarão na posição normal como se esse elemento que você adicionou ao position absolute não existisse. E então ele ficará como se tivesse em uma “nova camada” sem interagir com os outros elementos. 
+
+                    </p>
+                </div>
+
+                <div class="box_fixed">
+                    <h2>Position fixed:</h2>
+
+                    <p>ele funciona igual o position absolute porém ele se fixa no ponto que você definir NA TELA, ou seja você pode rolar a tela pra cima ou para baixo e o seu elemento vai ficar na mesma posição em relação a tela do dispositivo.
+
+                    </p>
+                </div>
+
+                <div class="box_sticky">
+                    <h2>Position sticky:</h2>
+
+                    <p>ele funciona igual o fixed porém ele se adapta a tela, no position fixed por exemplo se você tiver um titulo no topo da tela e usar o “position fixed” para uma navbar ela ficará em cima do título porém se usar um “position stick” o site botará a o título abaixo da sua nav bar.
+
+
+                    </p>
+                </div>
             </div>
 
         </section>
     </main>
 </body>
+
 </html>
